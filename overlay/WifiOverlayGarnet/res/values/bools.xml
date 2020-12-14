@@ -15,4 +15,12 @@
 
     <!-- Boolean to provide support to keep wifi5 symbol for 8SS supported device and 11ax AP -->
     <bool name="config_wifi_report_he_ready">true</bool>
+
+    <!-- Integer thresholds, do not connect to APs with RSSI lower than these values  -->
+    <integer translatable="false" name="config_wifi_framework_wifi_score_entry_rssi_threshold_5GHz">-85</integer>
+    <integer translatable="false" name="config_wifi_framework_wifi_score_entry_rssi_threshold_24GHz">-80</integer>
+    
+    <!-- Integer thresholds for low network score, should be somewhat less than the entry thresholds -->
+    <integer translatable="false" name="config_wifi_framework_wifi_score_bad_rssi_threshold_5GHz">-90</integer>
+    <integer translatable="false" name="config_wifi_framework_wifi_score_bad_rssi_threshold_24GHz">-83</integer>
 </resources>
