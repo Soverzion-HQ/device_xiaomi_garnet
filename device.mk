@@ -214,6 +214,8 @@ PRODUCT_PACKAGES += \
     fastbootd
 
 # Fingerprint
+TARGET_HAS_UDFPS := true
+
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint-service.xiaomi \
     libudfpshandler
