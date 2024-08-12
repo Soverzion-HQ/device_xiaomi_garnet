@@ -366,9 +366,7 @@ PRODUCT_PACKAGES += \
     libavservices_minijail_vendor \
     libcodec2_hidl@1.2.vendor \
     libcodec2_hidl@1.0.vendor \
-    libcodec2_soft_common.vendor \
-    libstagefrighthw \
-    libstagefright_softomx_plugin.vendor
+    libcodec2_soft_common.vendor
 
 PRODUCT_PACKAGES += \
     libavservices_minijail \
