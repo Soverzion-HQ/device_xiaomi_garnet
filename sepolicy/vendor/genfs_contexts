@@ -6,6 +6,8 @@ genfscon sysfs /class/qcom-battery u:object_r:vendor_sysfs_battery_supply:s0
 
 # Extcon
 genfscon sysfs /devices/platform/soc/soc:spf_core_platform/soc:spf_core_platform:lpass-cdc/wcd937x-codec/extcon u:object_r:sysfs_extcon:s0
+# Doze
+genfscon sysfs /devices/platform/soc/soc:qcom,dsi-display-primary/doze_mode                                                                                         u:object_r:vendor_sysfs_graphics:s0
 
 # Fingerprint
 genfscon sysfs /devices/platform/soc/soc:fingerprint_fpc u:object_r:vendor_sysfs_fingerprint:s0
