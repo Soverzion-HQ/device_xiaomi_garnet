@@ -10,6 +10,10 @@ persist.camera.ois.video=1
 persist.vendor.camera.ois.enable=1
 persist.vendor.camera.ois.video=1
 
+# LMKD
+ro.lmk.kill_heaviest_task=true
+ro.lmk.kill_timeout_ms=15
+
 # QTI
 ro.vendor.qti.va_aosp.support=1
 
