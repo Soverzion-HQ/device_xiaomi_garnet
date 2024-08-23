@@ -21,6 +21,7 @@ persist.vendor.vonr_setting_support=1
 ril.subscription.types=NV,RUIM
 ro.telephony.default_network=33,33
 telephony.lteOnCdmaDevice=1
+persist.vendor.vonr_setting_support=1
 
 # RIL Powersaving
 persist.radio.add_power_save=1 
