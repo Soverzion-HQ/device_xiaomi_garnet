@@ -470,6 +470,10 @@ PRODUCT_PACKAGES += \
     WifiOverlayGarnetRedmiCN \
     WifiOverlayGarnetXIG05
 
+# Overlay-Orion
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-orion
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti
