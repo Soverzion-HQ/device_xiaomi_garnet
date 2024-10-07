@@ -15,9 +15,21 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_PIXEL_CHARGER := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
+# Orion flags
+ORION_MAINTAINER := Drenzzz.
+ORION_MAINTAINER_LINK := https://t.me/realdrenzzz
+ORION_BUILD_TYPE := OFFICIAL
+TARGET_ENABLE_BLUR := true
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_HAS_UDFPS :=  true
+ORION_GAPPS := true
+BUILD_GOOGLE_CONTACTS := true
+BUILD_GOOGLE_DIALER := true
+BUILD_GOOGLE_MESSAGE := true
+
 # Inherit from garnet device
 $(call inherit-product, device/xiaomi/garnet/device.mk)
-PRODUCT_NAME := lineage_garnet
+PRODUCT_NAME := orion_garnet
 PRODUCT_DEVICE := garnet
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
