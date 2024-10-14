@@ -11,6 +11,7 @@ BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
 # Inherit from proprietary files for miuicamera
 -include vendor/xiaomi/garnet-miuicamera/products/board.mk
+TARGET_CAMERA_PACKAGE_NAME := com.android.camera
 
 # A/B
 AB_OTA_UPDATER := true
